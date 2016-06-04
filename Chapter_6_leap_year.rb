@@ -3,7 +3,7 @@ starting_year = gets.chomp.to_i
 puts "Ending year?"
 ending_year = gets.chomp.to_i
 count = 0
-for i in (starting_year..ending_year)
+(starting_year..ending_year).each do |i|
 	if (i % 4 == 0 && i % 100 != 0) || (i % 400 == 0)
 		puts i
 		count += 1
