@@ -7,7 +7,7 @@ while bottles >= 0
 	puts num.capitalize + " bottle#{plural} of beer on the wall, " + num + " bottle#{plural} of beer."
 
 	unless bottles == 0
-		num_left == 0? plural = "" : plural = "s"
+		num_left == "1"? plural = "" : plural = "s"
 		puts "Take one down and pass it around, " + num_left + " bottle#{plural} of beer on the wall."
 	else
 		puts "Go to the store and buy some more, 99 bottles of beer on the wall."
